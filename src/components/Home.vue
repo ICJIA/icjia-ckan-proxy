@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>ICJIA Proxy</h1>
+    [
+    <router-link to="/viz?url=http://public.tableau.com/views/RegionalSampleWorkbook/Storms">Tableau</router-link>]
   </div>
 </template>
 

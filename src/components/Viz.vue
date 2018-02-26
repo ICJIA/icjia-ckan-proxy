@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
-
-    <div id="vizContainer" style="width:800px; height:700px;"></div>
+    <a :href="$route.query.url">{{$route.query.url}}</a>
+    <center>
+      <div id="vizContainer"></div>
+    </center>
 
   </div>
 </template>

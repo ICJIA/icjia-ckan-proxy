@@ -15,7 +15,7 @@ export default new Router({
     },
 
     {
-      path: "/viz/",
+      path: "/viz",
       name: "VizHome",
       component: Viz
     }
